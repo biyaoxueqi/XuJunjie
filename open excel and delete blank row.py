@@ -48,6 +48,6 @@ oldpath = input("if you want to save the excel in old path or not(type Y or N):"
 if oldpath == "Y":
     savepath = path+"\\"+filename
 else:
-    savepath=input("please input the save excel path and name")
+    savepath=input("please input the save excel path and name:")
 wb.save(savepath)
 
